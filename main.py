@@ -65,9 +65,9 @@ def take_words(content: str) -> list[str]:
 def find_features(review: 'Review') -> Iterable:
     for word in take_words(review.content):
         correct_word = spell_checker(word)
-        if correct_word in POSITIVES:
+        if correct_word in POSITIVES or stemmer.stem(correct_word) in POSITIVES:
             yield correct_word, +1
-        elif correct_word in NEGATIVES:
+        elif correct_word in NEGATIVES or stemmer.stem(correct_word) in NEGATIVES:
             yield correct_word, -1
 
 
