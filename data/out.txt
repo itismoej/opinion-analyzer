@@ -6,7 +6,7 @@
 	score = 12
 3:
 	sentiment = Positive
-	score = 10
+	score = 9
 4:
 	sentiment = Positive
 	score = 2
@@ -15,13 +15,13 @@
 	score = 7
 6:
 	sentiment = Positive
-	score = 11
+	score = 12
 7:
 	sentiment = Positive
 	score = 10
 8:
 	sentiment = Positive
-	score = 10
+	score = 9
 9:
 	sentiment = Positive
 	score = 14
@@ -30,7 +30,7 @@
 	score = 7
 11:
 	sentiment = Positive
-	score = 14
+	score = 16
 12:
 	sentiment = Positive
 	score = 9
@@ -41,32 +41,32 @@
 	sentiment = Negative
 	score = -1
 15:
-	sentiment = Negative
-	score = -1
+	sentiment = Neutral
+	score = 0
 16:
 	sentiment = Positive
 	score = 3
 17:
 	sentiment = Positive
-	score = 2
+	score = 1
 18:
-	sentiment = Positive
-	score = 4
+	sentiment = Neutral
+	score = 0
 19:
 	sentiment = Positive
 	score = 15
 20:
 	sentiment = Positive
-	score = 12
+	score = 13
 21:
 	sentiment = Positive
-	score = 18
+	score = 19
 22:
 	sentiment = Negative
 	score = -2
 23:
 	sentiment = Positive
-	score = 18
+	score = 17
 24:
 	sentiment = Positive
 	score = 5
@@ -78,7 +78,7 @@
 	score = 6
 27:
 	sentiment = Positive
-	score = 5
+	score = 4
 28:
 	sentiment = Positive
 	score = 1
@@ -87,7 +87,7 @@
 	score = 7
 30:
 	sentiment = Positive
-	score = 9
+	score = 8
 31:
 	sentiment = Positive
 	score = 7
@@ -96,34 +96,34 @@
 	score = 1
 33:
 	sentiment = Negative
-	score = -3
+	score = -4
 34:
 	sentiment = Positive
 	score = 5
 35:
 	sentiment = Positive
-	score = 1
+	score = 2
 36:
 	sentiment = Positive
-	score = 22
+	score = 21
 37:
 	sentiment = Positive
-	score = 6
+	score = 7
 38:
 	sentiment = Positive
-	score = 6
+	score = 5
 39:
 	sentiment = Positive
-	score = 2
+	score = 1
 40:
 	sentiment = Positive
-	score = 1
+	score = 2
 41:
 	sentiment = Negative
-	score = -3
+	score = -2
 42:
 	sentiment = Positive
-	score = 17
+	score = 18
 43:
 	sentiment = Positive
 	score = 6
@@ -136,6 +136,6 @@
 
 Overall:
 		recommendation = Buy
-		recommendation_score = %86.67
+		recommendation_score = %84.44
 		best_features: great
 		worst_features: problem
